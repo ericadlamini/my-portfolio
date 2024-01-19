@@ -89,8 +89,15 @@ body {
 .footer-email {
   background: var(--background-color);
   padding: 20px;
+  font-family: var(--secondary-font-family);
 }
 
 .mid-c {
   background-color: var(--background-color);
+}
+.subtitles {
+  color: #ffffff;
+  font-family: var(--default-font-family);
+  font-weight: 100;
+  padding: 20px;
 }
