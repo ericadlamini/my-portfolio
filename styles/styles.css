@@ -1,10 +1,36 @@
-h1 {
-  font-family: "Roboto", sans-serif;
-  font-size: 20px;
+.main-info {
+  background-color: #1b1b1b;
+  color: #ffffff;
+  text-align: center;
+  padding: 100px;
 }
 
-h2 {
-  font-family: "Roboto", sans-serif;
-  font-size: 100px;
+.main-info h1 {
+  font-family: "League Gothic", sans-serif;
+  font-size: 96px;
+}
+
+.main-info h2 {
+  font-family: "League Gothic", sans-serif;
+  font-size: 128px;
   font-weight: 400;
+}
+
+.main-info p {
+  font-size: 48px;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  margin-bottom: 100px;
+}
+
+.description {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.btn-contact {
+  margin: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
 }
