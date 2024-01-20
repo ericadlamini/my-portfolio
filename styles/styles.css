@@ -41,7 +41,7 @@ body {
   font-weight: 100;
 }
 
-.btn-contact {
+#btn-contact {
   margin: 50px;
   text-transform: uppercase;
   font-weight: bold;
@@ -88,7 +88,7 @@ body {
 
 .footer-email {
   background: var(--background-color);
-  padding: 20px;
+  padding: 70px;
   font-family: var(--secondary-font-family);
 }
 
@@ -100,4 +100,26 @@ body {
   font-family: var(--default-font-family);
   font-weight: 100;
   padding: 20px;
+}
+
+@media (max-width: 993px) {
+  .main-info h1 {
+    font-size: 50px;
+  }
+  .main-info h2 {
+    font-size: 52px;
+  }
+  .main-info p {
+    font-size: 30px;
+  }
+  .description {
+    font-size: 12px;
+  }
+  #btn-contact {
+    font-size: 10px;
+    border-radius: none;
+  }
+  .mid-c {
+    text-align: center;
+  }
 }
