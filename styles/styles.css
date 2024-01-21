@@ -1,17 +1,17 @@
+.total {
+  background-color: var(--bckground-color);
+}
+
 :root {
   --primary-color: #ffffff;
-  --background-color: #1b1b1b;
+  --bckground-color: #1b1b1b;
   --title-font-family: "League Gothic", sans-serif;
   --default-font-family: "Roboto", sans-serif;
   --secondary-font-family: "Assistant", sans-serif;
 }
 
-body {
-  background-color: var(--background-color);
-}
-
 .main-info {
-  background-color: var(--background-color);
+  background-color: var(--bckground-color);
   color: var(--primary-color);
   text-align: center;
   padding: 100px;
@@ -58,17 +58,17 @@ body {
   text-align: right;
   padding: 20px;
   color: var(--primary-color);
-  background: var(--background-color);
+  background: var(--bckground-color);
 }
 .container {
-  background: var(--background-color);
+  background: var(--bckground-color);
   padding-left: 40px;
   padding-right: 40px;
   height: fit-content;
 }
 
 .cf-1 {
-  background: var(--background-color);
+  background: var(--bckground-color);
   color: var(--primary-color);
   font-family: var(--title-font-family);
   font-size: 198px;
@@ -76,7 +76,7 @@ body {
 }
 
 .btn-project {
-  background: var(--background-color);
+  background: var(--bckground-color);
   padding: 10px;
   text-transform: uppercase;
   text-align: center;
@@ -87,13 +87,13 @@ body {
 }
 
 .footer-email {
-  background: var(--background-color);
+  background: var(--bckground-color);
   padding: 70px;
   font-family: var(--secondary-font-family);
 }
 
 .mid-c {
-  background-color: var(--background-color);
+  background-color: var(--bckground-color);
 }
 .subtitles {
   color: #ffffff;
@@ -122,4 +122,41 @@ body {
   .mid-c {
     text-align: center;
   }
+}
+
+.ab-1 {
+  color: var(--primary-color);
+  margin-top: 100px;
+  text-align: left;
+  margin-left: 160px 20px;
+}
+
+.h5-a {
+  font: var(--default-font-family);
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 15;
+  font-weight: 700;
+  color: #ac97df;
+  margin-top: 100px;
+}
+
+.bio {
+  font-family: var(--default-font-family);
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.about-name {
+  font-size: 64px;
+  font-family: var(--default-font-family);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.section-a {
+  padding-left: 110px;
+  padding-right: 100px;
+  padding-top: 160px;
 }
