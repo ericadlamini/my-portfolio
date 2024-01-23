@@ -104,6 +104,9 @@
 }
 
 @media (max-width: 993px) {
+  .main-info {
+    padding: 0;
+  }
   .main-info h1 {
     font-size: 50px;
   }
@@ -123,11 +126,15 @@
   .mid-c {
     text-align: center;
   }
+  .section-a {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 .ab-1 {
   color: var(--primary-color);
-  margin-top: 100px;
+  margin-top: 50px;
   text-align: left;
   margin-left: 160px 20px;
 }
@@ -159,7 +166,7 @@
 .section-a {
   padding-left: 110px;
   padding-right: 100px;
-  padding-top: 160px;
+  padding-top: 100x;
 }
 
 .title {
@@ -218,4 +225,12 @@ nav a {
 nav a:hover,
 nav li.active a {
   color: #ac97df;
+}
+
+.fa-brands {
+  color: var(--primary-color);
+}
+
+.f-tab {
+  margin-bottom: 30px;
 }
